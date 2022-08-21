@@ -1,0 +1,13 @@
+# define m and g with user inout
+m = float(input("Please enter number of miles driven: "))
+g = float(input("Please enter number of gallons used: "))
+
+# type m and g as integers
+m = int(m)
+g = int(g)
+
+# mpg equation
+mpg = m/g
+
+#print messege with mpg output
+print ("You are currently getting" , + mpg, "miles per gallon in your car" )
