@@ -1,0 +1,5 @@
+from math import pi
+def areaOfCircle(r):
+    area = pi * r * r
+    return(areaOfCircle(10))
+print ("The area of the circle with radius " + str(r) + " is: " + str(pi * r**2))
